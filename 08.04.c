@@ -8,7 +8,7 @@
     printf("Extension: %s \n", Extension + 1);
     char* Dateiname = strrchr(string, '\\');
     printf("Dateiname: %s \n", Dateiname + 1);
-    *Extension = '\0';
+    *Dateiname = '\0';
     printf("Verzeichnis: %s \n", string);
     
     return 0;
